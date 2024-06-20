@@ -51,6 +51,11 @@
     color: var(--TEXT-COLOR);
     border:none;
     outline: 0;
+
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
 }
 
 .main {
@@ -79,6 +84,10 @@
     outline: 2px solid var(--BORDER-ACTIVE-COLOR);
 }
 
+.date-time {
+    color: var(--DATETIME-COLOR);
+}
+
 .topo-card {
     display: flex;
     justify-content: space-between;
@@ -98,7 +107,7 @@
 
 h2 {
     color: #FFF;
-    font-family: "Space Grotesk";
+    font-family: 'Space Grotesk';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -113,4 +122,50 @@ p {
     font-style: normal;
     font-weight: 500;
     line-height: 160%; /* 22.4px */
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 217px;
+        height: 51px;
+    }
+
+    #divBusca {
+        justify-content: flex-start;
+        width: 704px;
+        height: 64px;
+        gap: 16px;
+    }
+
+    #txtBusca {
+        background-color:transparent;
+        color: var(--TEXT-COLOR);
+        border:none;
+        outline: 0;
+    
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card {
+        width: 704px;
+        height: 248px;
+        padding: 40px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .texto {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500; 
+    }
 }

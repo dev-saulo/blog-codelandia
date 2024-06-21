@@ -84,6 +84,12 @@
     outline: 2px solid var(--BORDER-ACTIVE-COLOR);
 }
 
+button {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
 .date-time {
     color: var(--DATETIME-COLOR);
 }
@@ -167,5 +173,33 @@ p {
         font-size: 16px;
         font-style: normal;
         font-weight: 500; 
+    }
+}
+
+@media (min-width: 1281px) {
+    .logo {
+        width: 217px;
+        height: 51px;
+    }
+
+    #divBusca {
+        justify-content: flex-start;
+        width: 1216px;
+        height: 64px;
+        gap: 16px;
+    }
+
+    .card {
+        width: 1216px;
+        height: 248px;
+        padding: 40px;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .texto {
+        font-size: 20px;
     }
 }
